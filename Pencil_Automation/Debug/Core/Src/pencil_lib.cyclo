@@ -1,0 +1,12 @@
+../Core/Src/pencil_lib.c:10:6:Machine_Status	2
+../Core/Src/pencil_lib.c:22:6:Diagnostics_PASS	4
+../Core/Src/pencil_lib.c:44:6:Hopper	3
+../Core/Src/pencil_lib.c:64:6:Check_Hopper_Empty	2
+../Core/Src/pencil_lib.c:76:6:Rotary_Actuator	2
+../Core/Src/pencil_lib.c:85:6:Counter_Box	2
+../Core/Src/pencil_lib.c:100:6:Conveyor_Belt	1
+../Core/Src/pencil_lib.c:113:6:Weighing_Machine	3
+../Core/Src/pencil_lib.c:126:6:Packing_Conveyor	1
+../Core/Src/pencil_lib.c:134:6:Final_Container	1
+../Core/Src/pencil_lib.c:147:9:Fault_Trigger	1
+../Core/Src/pencil_lib.c:153:6:Waste_Container	1

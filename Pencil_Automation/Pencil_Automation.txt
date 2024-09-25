@@ -1,0 +1,86 @@
+Configuration	Pencil_Automation
+STM32CubeMX 	6.12.0
+Date	09/23/2024
+MCU	STM32H743ZITx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN2 Single-ended	ADC1_INP2	PF11
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+26	PC0	GPIO_Output	DC_DIR
+27	PC1	GPIO_Output	DC_PULSE
+28	PC2_C	GPIO_Output	CONVEYOR1_DIR
+29	PC3_C	GPIO_Output	CONVEYOR_PULSE
+34	PA0	GPIO_Output	ACTUATOR_1
+35	PA1	GPIO_Output	ACTUATOR_2
+36	PA2	GPIO_Output	ACTUATOR_3
+37	PA3	GPIO_Output	ACTUATOR_4
+44	PC4	GPIO_Output	CONVEYOR2_DIR
+45	PC5	GPIO_Output	CONVEYOR2_PULSE
+49	PF11	ADC1_INP2	WEIGHING_DATA_IN
+56	PG0	GPIO_Input	HOPPER_SENSOR
+57	PG1	GPIO_Input	PENCIL_COUNTER_SENSOR
+87	PG2	GPIO_Input	EXTRA_SENSOR
+136	PB6	I2C1_SCL	RPI_SCL
+137	PB7	I2C1_SDA	RPI_SDA
+141	PE0	GPIO_Input	SYSTEM_PAUSE
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN2 Single-ended	ADC1_INP2	PF11
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+26	PC0	GPIO_Output	DC_DIR
+27	PC1	GPIO_Output	DC_PULSE
+28	PC2_C	GPIO_Output	CONVEYOR1_DIR
+29	PC3_C	GPIO_Output	CONVEYOR_PULSE
+34	PA0	GPIO_Output	ACTUATOR_1
+35	PA1	GPIO_Output	ACTUATOR_2
+36	PA2	GPIO_Output	ACTUATOR_3
+37	PA3	GPIO_Output	ACTUATOR_4
+44	PC4	GPIO_Output	CONVEYOR2_DIR
+45	PC5	GPIO_Output	CONVEYOR2_PULSE
+49	PF11	ADC1_INP2	WEIGHING_DATA_IN
+56	PG0	GPIO_Input	HOPPER_SENSOR
+57	PG1	GPIO_Input	PENCIL_COUNTER_SENSOR
+87	PG2	GPIO_Input	EXTRA_SENSOR
+136	PB6	I2C1_SCL	RPI_SCL
+137	PB7	I2C1_SDA	RPI_SDA
+141	PE0	GPIO_Input	SYSTEM_PAUSE
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Pencil_Automation
+Project Folder : C:\Users\Dhiru\STM32CubeIDE\workspace_1.16.0\Pencil_Automation
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_H7 V1.11.2
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
